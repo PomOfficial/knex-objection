@@ -1,6 +1,6 @@
 {
   "name": "@pomofficial/knex-objection",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Objection ORM for Knex in Pomegranate",
   "main": "index.js",
   "files": [
