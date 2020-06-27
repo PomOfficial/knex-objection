@@ -1,0 +1,43 @@
+{
+  "name": "@pomofficial/knex-objection",
+  "version": "0.0.0",
+  "description": "Objection ORM for Knex in Pomegranate",
+  "main": "index.js",
+  "files": [
+    "index.d.ts",
+    "index.js.map",
+    "Readme.md",
+    "LICENCE"
+  ],
+  "scripts": {
+    "prepublishOnly": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PomOfficial/knex-objection.git"
+  },
+  "keywords": [
+    "Knex",
+    "SQL",
+    "Objection",
+    "ORM",
+    "Pomegranate"
+  ],
+  "author": "Jim Bulkowski <jim.b@paperelectron.com> (http://paperelectron.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PomOfficial/knex-objection/issues"
+  },
+  "homepage": "https://github.com/PomOfficial/knex-objection#readme",
+  "dependencies": {
+    "@pomegranate/plugin-tools": "^2.0.10",
+    "knex": "^0.21.1",
+    "lodash": "^4.17.15",
+    "objection": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.14",
+    "typescript": "^3.9.5"
+  }
+}
